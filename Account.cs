@@ -11,7 +11,7 @@ namespace Desafio
         {
             _name = name;
             NumAccount = numAccount;
-            DepositedAmount = depositeAmount;
+            Deposite(depositeAmount);
         }
         public Account(string name, int numAccount) : this(){}
         public string Name{

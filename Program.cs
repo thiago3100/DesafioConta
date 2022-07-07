@@ -24,8 +24,8 @@ namespace Desafio
                 Console.Write("Haverá depósito inicial (s/n)? ");
                 Console.WriteLine();
                 choice = char.Parse(Console.ReadLine());
-
-                if(choice == 's')
+            }
+             if(choice == 's' || choice == 'S')
                 {
                     Console.WriteLine();
                     Console.Write("Entre o valor de depósito inicial: ");
@@ -35,7 +35,6 @@ namespace Desafio
                 {
                     Console.WriteLine();
                 }
-            }
 
             Account readAccount = new Account(numAccount, account.Name, Amount );
 
